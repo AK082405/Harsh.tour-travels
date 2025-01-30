@@ -1,0 +1,645 @@
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b .left img {
+    width: 65vw;
+}
+
+.swiper {
+    width: 1300px;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 1450px;
+    height: 620px;
+    object-fit: cover;
+}
+
+.b .right {
+    background-color: whitesmoke;
+    width: 34vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    align-items: center;
+}
+
+.b .right .main-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    row-gap: 40px;
+}
+
+.b .right .main-box .box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.b .right .main-box .box1 select {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.b .right .main-box .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b .right .main-box .btn button {
+    padding: 15px 174px;
+    border: none;
+    background-color: #ff0000db;
+    width: max-content;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.a {
+display: flex;
+height: 70px;
+background: white;
+align-items: center;
+justify-content: center;
+column-gap: 17%;
+margin-left: -210px;
+}
+
+.a .item {
+display: flex;
+column-gap: 40px;
+}
+
+.a .item a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+transition: all 0.5s ease-in;
+}
+
+.a .item a:hover {
+border-bottom: 2px solid #f97507;
+color: #f97507;
+}
+
+.a .btn {
+column-gap: 20px;
+display: flex;
+}
+
+.a .btn input {
+padding: 8px 25px;
+border-radius: 20px;
+color: #f97507;
+cursor: pointer;
+/* box-shadow: -1px 0px 5px -2px; */
+border: 1px solid;
+background: white;
+}
+
+.logo img {
+width: 100px; /* Adjust the width of the logo */
+height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+margin-left: 200px;
+}
+p{
+font-weight: bolder;
+}
+.product-box {
+height: 500px;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+margin-top: 180px;
+/* margin-left: 578px; */
+}
+
+.product-box .main-box {
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 20px;
+}
+
+.product-box .main-box .box {
+width: 350px;
+height: 360px;
+background-image: linear-gradient(143deg, #f97507, transparent);
+border-radius: 8px;
+padding: 20px;
+overflow: hidden;
+}
+
+.product-box .main-box .box .txt {
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+
+.product-box .main-box .box .txt button {
+padding: 10px 20px;
+border: none;
+background: white;
+width: fit-content;
+cursor: pointer;
+}
+
+.product-box img {
+width: 450px;
+}
+
+.product-box .main-box .box2 {
+width: 350px;
+height: 360px;
+background-image: linear-gradient(143deg, #f97507, transparent);
+border-radius: 8px;
+padding: 20px;
+overflow: hidden;
+}
+
+.product-box .main-box .box2 .txt {
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+
+.product-box .main-box .box2 .txt button {
+padding: 10px 20px;
+border: none;
+background: white;
+width: fit-content;
+cursor: pointer;
+}
+
+.product-box .head {
+width: 230px;
+margin-left: 116px;
+}
+
+.product-box .main-box .box3 {
+width: 350px;
+height: 360px;
+background-image: linear-gradient(143deg, #f97507, transparent);
+border-radius: 8px;
+padding: 20px;
+overflow: hidden;
+}
+
+.product-box .main-box .box3 .txt {
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+
+.product-box .main-box .box3 .txt button {
+padding: 10px 20px;
+border: none;
+background: white;
+width: fit-content;
+cursor: pointer;
+}
+
+.product-box .box3 .air {
+margin-left: 39px;
+width: 372px;
+margin-top: -65px;
+}
+.a1{
+margin-left: 10s0px;
+}
+.company-info {
+    background-color: white;
+    color: #ccdee4;
+    height: auto;
+    text-align: center;
+    margin-top: -71px;
+}
+@media (min-width:912px) {
+    .company-info {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #393452;
+        color: #fff;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.content2 {
+    display: flex;
+    justify-content: space-between;
+}
+.left-paragraph, .right-paragraph {
+    flex-basis: 48%; /* Adjust as needed */
+}
+.color{
+    background-color: #f97507;
+    border: none;
+    height: 150px;
+    
+}
+.btn1{
+    display: inline-block;
+    
+    background-color: #fff;
+    color: #393452;
+    margin-top: 1rem;
+    width: 200px;
+    height: 38px;
+    text-align: center;
+    padding: 0.3rem;
+    padding-top: 10px;
+    border-radius: 25px;
+    margin: 1.2rem auto;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+   text-decoration-line: none;
+}
+
+.btn1:hover{
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.now{
+    margin-top: -70px;
+    margin-left: 1100px;
+}
+.x_icon {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    border: 2px solid #f68a1d;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.payment-form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;  
+     margin-top: -30px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-color: #393452;
+     color: #393452;
+     border: none;
+     height: 570px;
+     
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"],
+.payment-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-form input[type="submit"] {
+    background-color: #f68a1d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-form input[type="submit"]:hover {
+    background-color: #f68a1d;
+}
+
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;  
+     margin-top: -30px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-color: #393452;
+     color: #393452;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #f68a1d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #f68a1d;
+}
+
+
+  /*car*/
+
+  .start-sec .main-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #f68a1d, #fae3cd);
+    border-radius: 10px;
+    padding: 30px;
+    column-gap: 50px;
+}
+
+.start-sec .main-sec .left {
+    /* background: greenyellow; */
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.start-sec .main-sec .left .txt1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.start-sec .main-sec .left .btn button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start-sec .main-sec .right {
+    /* background: rgb(47, 144, 255); */
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    width: 350px;
+    align-items: center;
+
+    /* width: 400px;
+    height: 300px;
+    margin: 78px;
+    padding: 30px; */
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    background-image: linear-gradient(155deg, #f68a1d, #f2e2d3);
+}
+
+.start-sec .main-sec .right img {
+    width: 50vw;
+    filter: drop-shadow(20px 50px 25px #FFD7B5);
+}
+
+
+.car1{
+
+
+margin-left: 670px;
+margin-top: -290px;
+border: solid;
+border-color: #f68a1d;
+width: 180px;
+border-radius:50%;
+
+}
+
+.calendar1{
+
+    border:solid;
+    border-color: #f68a1d;
+    width: 180px;
+	margin-top:20px;
+	border-radius:70%;
+	margin-left:150px;
+
+}
+
+.star{
+    margin-left: 1190px;
+margin-top: -305px;
+border: solid;
+border-color: #f68a1d;
+width: 180px;
+border-radius:50%;
+}
+.accordion {
+    background-color: #f68a1d;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 30%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-left: 80px;
+    border: solid;
+    border-radius: 10px;
+
+  }
+  
+  .panel {
+    background-color: white;
+    display: none;
+    margin-left: 90px;
+    padding: 15px;
+    color: #393452;
+    margin-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .panel ul {
+    list-style-type: circle;
+  }
+  .align{
+    margin-left: 500px;
+    width: 100%;
+    margin-top: -117px;
+  }
+  .aaling{
+    margin-left:500px;
+    width: 100%;
+  }
+  /* CSS for hover effect */
+.calendar1:hover {
+    background-color: #f68a1d; /* Change to the desired background color */
+    transition: background-color 0.3s ease;
+	/* Smooth transition effect */
+}
+
+/* CSS for child elements to adjust their styles when the parent is hovered */
+.calendar1:hover i.fa-calendar {
+    color: #fff; /* Change to the desired text color */
+}
+
+.calendar1:hover p {
+    color: #fff; /* Change to the desired text color */
+}
+
+/* hover effect car1 */
+.car1:hover {
+    background-color: #f68a1d; /* Change to the desired background color */
+    transition: background-color 0.3s ease;
+	/* Smooth transition effect */
+}
+
+/* CSS for child elements to adjust their styles when the parent is hovered */
+.car1:hover i.fa-calendar {
+    color: #fff; /* Change to the desired text color */
+}
+
+.car1:hover p {
+    color: #fff; /* Change to the desired text color */
+}
+
+/* hover effect star */
+.star:hover {
+    background-color: #f68a1d; /* Change to the desired background color */
+    transition: background-color 0.3s ease;
+	/* Smooth transition effect */
+}
+
+/* CSS for child elements to adjust their styles when the parent is hovered */
+.star:hover i.fa-calendar {
+    color: #fff; /* Change to the desired text color */
+}
+
+.star:hover p {
+    color: #fff; /* Change to the desired text color */
+}
+
+ /* Keyframes for bounce animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} 
